@@ -1,0 +1,33 @@
+# Getting Started
+
+## Step 1: Clone the Base code repository
+Clone Repository
+```js
+ git clone git@repo.ekbana.info:frontend-v2/bootstrap-codebase.git
+```
+## Step 2: Checkout to branch
+Fetch the latest branch
+```js
+ git fetch origin cms-1.0
+```
+Checkout to latest branch
+```js
+ git checkout cms-1.0
+```
+## Step 3: Setup .env file
+Create a new file in root path named .env.local with the following values:
+```js
+ NEXT_PUBLIC_BASE_URL = 'your base api url' //https://dev-tcmv2.ekbana.info/api
+```
+Can use the provided api so that login can be done using personal OA credentials for testing purpose.
+
+## Step 4: Install packages
+Run the following command
+```js
+ yarn install
+```
+## Step 5: Run app for development
+```js
+ yarn run dev
+```
+Runs the app in the development Open http://127.0.0.1:3000 and IF port 3000 is unavailable, please check your terminal to see in which port the app is running and redirect likewise.
