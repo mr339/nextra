@@ -9,7 +9,12 @@ const withNextra = require('nextra')({
 })
 
 module.exports = withNextra({
-    reactStrictMode: true, swcMinify: true, async headers() {
+    reactStrictMode: true, swcMinify: true,
+    generateBuildId: async () => {
+        // You can, for example, get the latest git commit hash here
+        return JSON.stringify(Math.random());
+    },
+    async headers() {
         return [
             {
                 source: '/(.*)?', // Matches all pages
