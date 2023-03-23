@@ -1,23 +1,26 @@
-## Deployment Setup
+# Deployment Setup
 
 First, install the necessary packagess:
 
-```bash
+
+
+```js
 yarn
 ```
 then, generate build file:
 
-```bash
+```js
 yarn build
 ```
 
 run the build file
 
-```bash
+```js
 yarn start
 ```
 
 listen to the 3000 port (default) through PM2 service:
 
-```bash
+```js
 PORT=3000 pm2 start --name project_name yarn -- start
+```
