@@ -1,8 +1,5 @@
 export default {
-    logo: <span>CMS codebase documentation</span>,
-    project: {
-        link: 'https://repo.ekbana.info/frontend-v2/codebase-nextra-documentation',
-    },
+    logo: <span>Beer App documentation</span>,
     feedback: {
         content: null //Disable the feedback lin on rightNavBar
     },

@@ -1,4 +1,5 @@
 {
-    "emotion": "Emotion",
-    "dayJs": "Day.js"
+    "axios": "Axios",
+    "reactBootstrap": "React Bootstrap",
+    "reactRedux": "React-redux"
 }

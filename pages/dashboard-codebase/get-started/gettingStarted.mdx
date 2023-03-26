@@ -5,21 +5,25 @@ Clone Repository
 ```js
  git clone git@repo.ekbana.info:frontend-v2/bootstrap-codebase.git
 ```
-## Step 2: Checkout to branch
+IF using zipped file
+```js
+ Unzip the zipped file
+```
+
+## Step 2: Checkout to branch(if git cloned else go skip this step)
 Fetch the latest branch
 ```js
- git fetch origin cms-1.0
+ git fetch origin beer-branch
 ```
 Checkout to latest branch
 ```js
- git checkout cms-1.0
+ git checkout beer-branch
 ```
 ## Step 3: Setup .env file
 Create a new file in root path named .env.local with the following values:
 ```js
- NEXT_PUBLIC_BASE_URL = 'your base api url' //https://dev-tcmv2.ekbana.info/api
+apiURL= 'your base api url' //https://api.punkapi.com/v2/beers
 ```
-Can use the provided api so that login can be done using personal OA credentials for testing purpose.
 
 ## Step 4: Install packages
 Run the following command
