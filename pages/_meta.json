@@ -1,7 +1,6 @@
 {
     "index": "Introduction",
-    "dashboard-codebase": "Dashboard Codebase",
+    "beer-app": "Beer App",
     "security-headers": "Security Headers",
-    "code-commenting": "Code Commenting",
-    "deployment-setup": "Deployment"
+    "code-commenting": "Code Commenting"
 }
